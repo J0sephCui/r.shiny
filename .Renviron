@@ -1,0 +1,9 @@
+DRIVER = "ODBC Driver 18 for SQL Server"
+DB_DRIVER = "ODBC Driver 18 for SQL Server"
+DB_SERVER = "shiny.database.windows.net"
+DB_NAME = "Shiny"
+DB_DATABASE="Shiny"
+DB_PORT = 1433
+UID = "shiny"
+PWD = "j*$bQCCrSj9&J!H2"
+DSN = "Shiny"
