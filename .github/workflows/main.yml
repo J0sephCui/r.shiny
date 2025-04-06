@@ -33,8 +33,8 @@ jobs:
     - name: Update Web App Container
       run: |
         az webapp config container set \
-          --name ${{ secrets.WEB_APP_NAME }} \
-          --resource-group ${{ secrets.RESOURCE_GROUP }} \
+          --name shinywebapp \
+          --resource-group TestGroup \
           --docker-custom-image-name ${{ secrets.REGISTRY_LOGIN_SERVER }}/sampleapp:${{ github.sha }} \
           --docker-registry-server-url https://${{ secrets.REGISTRY_LOGIN_SERVER }} \
           --docker-registry-server-user ${{ secrets.REGISTRY_USERNAME }} \
